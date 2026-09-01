@@ -7,7 +7,6 @@ class Employee
     string name, city;
     int id;
     float salary;
-
 public:
 
     // Default Constructor
