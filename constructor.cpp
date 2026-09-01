@@ -41,7 +41,7 @@ public:
     void input()
     {
         cout << "Enter Employee Name: ";
-        getline(cin, name);
+        cin>>name;
 
         cout << "Enter Employee ID: ";
         cin >> id;
@@ -49,10 +49,8 @@ public:
         cout << "Enter Salary: ";
         cin >> salary;
 
-        cin.ignore();
-
         cout << "Enter City: ";
-        getline(cin, city);
+        cin>>city;
     }
 
     // Display Function
