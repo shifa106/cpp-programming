@@ -43,10 +43,8 @@ public:
         cout << "Enter Product ID: ";
         cin >> id;
 
-        cin.ignore();
-
         cout << "Enter Product Name: ";
-        getline(cin, name);
+        cin>>name;
 
         cout << "Enter Quantity: ";
         cin >> quantity;
