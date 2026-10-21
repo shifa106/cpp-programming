@@ -12,6 +12,7 @@ int main()
     file1.open("stud.txt",ios::app);
     file1<< "Welcome to cpp programming\n welcome to DYPCET\n Thank you for all";
     cout<<"File created successfully";
+ 
     file1.close();
 
     // Open file for reading
